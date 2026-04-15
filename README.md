@@ -4,7 +4,7 @@ An AI-powered image renamer that uses local Ollama models to describe images and
 
 ## Features
 - **AI Powered**: Uses `batiai/gemma4-26b:iq4` via Ollama `/api/generate`.
-- **Smart Naming**: Converts descriptions to `snake_case` and handles collisions.
+- **Smart Naming**: Converts descriptions and handles collisions.
 - **Safety First**: Defaults to a dry-run mode. Use `--execute` to apply changes.
 - **Undo System**: Maintains `undo.json` to revert the last session with `--undo`.
 
