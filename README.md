@@ -1,6 +1,6 @@
 # Smart Renamer
 
-An AI-powered image renamer that uses local Ollama models to describe images and rename them into clean, snake_case filenames.
+An AI-powered image renamer that uses local Ollama models to describe images and rename them into clean,filenames.
 
 ## Features
 - **AI Powered**: Uses `batiai/gemma4-26b:iq4` via Ollama `/api/generate`.
